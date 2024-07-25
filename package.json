@@ -1,0 +1,21 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "detect and show exact location in map using leaflet and socket.io ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "keywords": [
+    "socket.io",
+    "leafelet"
+  ],
+  "author": "Purushotam",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
